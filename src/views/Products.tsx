@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
+
+//Components
+import Base from "../components/Base/Base";
 
 const Products: React.FC = () => {
-    return (
-        <div>
-            <h1>Products</h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <Base>
+        <h1>Store content</h1>
+      </Base>
+    </div>
+  );
+};
 
-export default Products
+export default Products;
