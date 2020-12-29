@@ -1,21 +1,19 @@
-import React, { ReactNode } from 'react'
+import React, { ReactNode } from "react";
 
 //Components
-import Header from '../Header/Header';
+import Header from "../Header/Header";
 
 interface Props {
-    children?: ReactNode | ReactNode[]
-};
-
-const Base: React.FC<Props> = ({ children }) => {
-    return (
-        <>
-            <Header />
-            <main>
-                {children}
-            </main>
-        </>
-    )
+  children?: ReactNode | ReactNode[];
 }
 
-export default Base
+const Base: React.FC<Props> = ({ children }) => {
+  return (
+    <>
+      <Header />
+      <main>{children}</main>
+    </>
+  );
+};
+
+export default Base;

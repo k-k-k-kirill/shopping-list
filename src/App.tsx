@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 //Views
-import Products from './views/Products';
+import Products from "./views/Products";
 
 function App() {
   return (
