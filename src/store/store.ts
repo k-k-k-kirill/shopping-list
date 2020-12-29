@@ -2,7 +2,10 @@ import { combineReducers, createStore, Reducer } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
 
 //Reducers
-import { shopReducer, ShopState } from "./reducers/shopReducer";
+import { shopReducer } from "./reducers/shopReducer";
+
+//Types
+import { ShopState } from './reducers/types'
 
 export interface ApplicationState {
   shop: ShopState;

@@ -1,19 +1,16 @@
-export interface ShopState {
-    products: [],
-    productCount: number
-}
+import { ShopState } from "./types";
+import actions from "../actions";
+
+//Utils
+import generateProucts from "../../utils/generateProducts";
 
 const initialState: ShopState = {
-    products: [],
-    productCount: 0
-}
+  products: generateProucts(10),
+  productCount: 0,
+};
 
 export const shopReducer = (state: ShopState = initialState, action: any) => {
   switch (action.type) {
-    case "INIT":
-      console.log("init has happened");
-      return state
-
     default:
       return state;
   }

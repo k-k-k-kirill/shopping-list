@@ -1,4 +1,5 @@
 import React from "react";
+import ProductList from '../components/ProductList/ProductList'
 
 //Components
 import Base from "../components/Base/Base";
@@ -7,7 +8,7 @@ const Products: React.FC = () => {
   return (
     <div>
       <Base>
-        <h1>Store content</h1>
+        <ProductList />
       </Base>
     </div>
   );
