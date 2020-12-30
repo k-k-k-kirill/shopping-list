@@ -36,7 +36,7 @@ const AddProduct: React.FC = () => {
 
     const nameExists: boolean =
       existingProducts.filter((item: Product) => {
-        return item.name == name;
+        return item.name === name;
       }).length > 0;
 
     if (nameExists) {
@@ -88,10 +88,10 @@ const AddProduct: React.FC = () => {
       </div>
       <div className="row py-1 mb-1 align-items-center">
         <div className="col-lg-8">
-          <input type="text" value={name} onChange={handleNameChange} />
+          <input className="product-name" type="text" value={name} onChange={handleNameChange} />
         </div>
         <div className="col-lg-2">
-          <input type="text" value={amount} onChange={handleAmountChange} />
+          <input className="product-amount" type="text" value={amount} onChange={handleAmountChange} />
         </div>
         <div className="col-lg-2 text-right">
           <button className="btn btn-primary" onClick={handleAddProductClick}>
