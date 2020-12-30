@@ -9,7 +9,7 @@ const Header: React.FC = () => {
           <div className="col-lg-4">
             <StoreLogo />
           </div>
-          <div className="col-lg-8 d-flex flex-row align-items-center">
+          <div className="col-lg-8 d-flex flex-row align-items-center justify-content-center">
             <h1>Our Shopping List</h1>
           </div>
         </div>

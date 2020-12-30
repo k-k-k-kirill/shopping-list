@@ -1,9 +1,9 @@
 export interface Product {
   name: string;
-  price: number;
+  amount: number;
+  id: string;
 }
 
 export interface ShopState {
   products: Product[];
-  productCount: number;
 }
