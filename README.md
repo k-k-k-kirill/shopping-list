@@ -1,3 +1,11 @@
+# Shop List description
+
+This simple shop app renders a product list with editable names and amounts. Product cards have local state for each product field for reactivity and also update global store values in background on input changes. 
+
+Redux is used for maintaining global state of the shop list. React-redux hooks were used instead of "connect" function to avoid writing excessive boilerplate for containers. All global state is updated using immutable patterns.
+
+For testing Jest + Enzyme is used. Only simple unit tests are implemented, not integration tests.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
