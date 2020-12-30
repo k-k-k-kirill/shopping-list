@@ -1,8 +1,11 @@
 const actions = {
-    shop: { 
-        GENERATE_PRODUCTS: 'GENERATE_PRODUCTS',
-        CHANGE_PRODUCT_AMOUNT: 'CHANGE_PRODUCT_AMOUNT'
-    }
-}
+  shop: {
+    GENERATE_PRODUCTS: "GENERATE_PRODUCTS",
+    CHANGE_PRODUCT_AMOUNT: "CHANGE_PRODUCT_AMOUNT",
+    CHANGE_PRODUCT_NAME: "CHANGE_PRODUCT_NAME",
+    REMOVE_PRODUCT: "REMOVE_PRODUCT",
+    ADD_PRODUCT: "ADD_PRODUCT",
+  },
+};
 
-export default actions
+export default actions;

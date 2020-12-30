@@ -17,7 +17,7 @@ const ProductList: React.FC = () => {
   );
 
   return (
-    <div className="container">
+    <div className="container mb-3">
       <div className="row pb-1 mb-2 product-list__headers">
         <div className="col-lg-8">
           <h4 className="font-weight-bold">Name</h4>
